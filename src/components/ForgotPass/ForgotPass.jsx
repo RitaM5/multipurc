@@ -16,7 +16,7 @@ const ForgotPass = () => {
             <div className='mt-4'>
                 <Email className="" />
                 <Link to="/varificationcode">
-                    <p className='md:text-right text-center py-4'><button className='md:w-[202px] w-full h-[63px] bg-white text-lg font-semibold'>Search</button></p>
+                    <p className='md:text-right text-center py-4'><button className='md:w-[202px] w-full h-[63px] bg-white text-lg font-semibold rounded-lg'>Search</button></p>
                 </Link>
 
             </div>

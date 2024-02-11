@@ -18,7 +18,7 @@ const NewPass = () => {
         </div>
         <div className='mt-2 relative bottom-24'>        
             <Link to="/countryselect">
-                <p className='md:text-right text-center py-4'><button className='md:w-[202px] w-full h-[63px] bg-white text-lg font-semibold'>Save</button></p>
+                <p className='md:text-right text-center py-4'><button className='md:w-[202px] w-full h-[63px] bg-white text-lg font-semibold rounded-lg'>Save</button></p>
             </Link>
         </div>
     </div>

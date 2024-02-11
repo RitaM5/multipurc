@@ -16,11 +16,13 @@ const SignIn = () => {
                     </p>
                     <div className='md:flex gap-16 justify-center mt-3 py-4 w-full max-w-xl mx-auto'>
                         <div className='md:w-[256px] px-2 w-full max-w-xl flex items-center gap-2 h-[52px] border border-gray-400'>
-                            <img src="image/Google.png" alt="" srcset="" />
+                            {/* <img src="image/Google.png" alt="" srcset="" /> */}
+                            <img src="https://img.icons8.com/color/25/google-logo.png" alt="google-logo"/>
                             <p className='text-lg font-semibold'>Sign In with Google</p>
                         </div>
                         <div className='md:w-[256px] px-2 my-3 md:my-0 w-full flex items-center gap-2 h-[52px] border border-gray-400 mx-w-xl'>
-                            <img src="image/Apple logo.png" alt="" srcset="" />
+                            {/* <img src="image/Apple logo.png" alt="" srcset="" /> */}
+                            <img src="https://img.icons8.com/ios-glyphs/25/mac-os.png" alt="mac-os"/>
                             <p className='text-lg font-semibold'>Sign In with Apple</p>
                         </div>
                     </div>
@@ -46,7 +48,7 @@ const SignIn = () => {
                                 </Link>
                             </div>
                             <div className='w-full text-left md:text-center space-y-3'>
-                                <input type="button" value="Sign In" className="input bg-[#1B434D] text-white text-lg font-semibold  h-[65px]  input-bordered w-full max-w-lg" />
+                                <input type="button" value="Sign In" className="input bg-[#1B434D] text-white text-lg font-semibold  h-[65px]  input-bordered w-full max-w-xl" />
                             </div>
                             <p className='pt-8 text-lg'>Don’t have a account? <span className=' font-semibold'>SignUp</span></p>
                         </div>

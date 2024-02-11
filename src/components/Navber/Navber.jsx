@@ -5,18 +5,14 @@ const Navber = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className="z-10 w-full bg-white font-poppins">
-        <div className="my-4 h-full ">
-        <h1 className="text-3xl text-center font-bangers block lg:hidden text-teal-800">Multipurc</h1>
-        </div>
         <nav className="bg-white ">
-          <div className="flex font-poppins items-center font-medium justify-around gap-20 h-20 ">
-            <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-              <h1 className=" lg:block lg:text-center hidden text-3xl font-bangers text-teal-800">Multipurc</h1>
-              <div className="text-5xl relative right-8 md:mt-0 mt-14  md:hidden" onClick={() => setOpen(!open)}>
+          <div className="flex font-poppins items-center font-medium justify-around h-20 ">
+            <div className="z-50 p-6 md:w-auto w-full flex justify-between">
+              <div className="text-5xl relative right-8 md:mt-0 mt-  md:hidden" onClick={() => setOpen(!open)}>
                 <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
               </div>
             </div>
-            <ul className="md:flex hidden uppercase items-center gap-8 lg:gap-2 font-semibold ">
+            <ul className="md:flex w-full hidden uppercase items-center gap-8 lg:gap-2 font-semibold ">
               <li>
                 <Link to="/" className="py-7 px-3 inline-block">
                   Home
@@ -62,7 +58,7 @@ const Navber = () => {
             {/* Mobile nav */}
             <ul
               className={`
-          md:hidden bg-teal-800 text-white fixed w-full h-[400px] z-10 py-12 top-36 overflow-y-auto bottom-0  pl-4
+          md:hidden bg-teal-800 text-white fixed w-full h-[400px] z-10 py-12 top-24 overflow-y-auto bottom-0  pl-4
           duration-500 ${open ? "left-0" : "left-[-100%] font-semibold text-lg "}
           `}
             >

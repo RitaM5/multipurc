@@ -38,7 +38,7 @@ const Home = () => {
                             <img src="image/particles.png" className='' alt="" srcset="" />
                         </div>
                     </div>
-                    <div className='bg-white relative lg:h-[88px] w-full rounded-xl py-3 text-lg text-left px-6 my-3 md:flex md:justify-between items-center'>
+                    <div className='bg-white grid relative lg:h-[88px]  w-full rounded-xl py-3 text-lg text-left px-6 my-3 md:flex md:justify-between items-center'>
                         <div className='flex items-center gap-3 text-lg'>
                             <input type="checkbox" checked="checked" className="checkbox bg-[#1B434D] rounded-full checkbox-sm" />
                             <h2 className='text-[22px] font-semibold'>example.multipurc.com</h2>

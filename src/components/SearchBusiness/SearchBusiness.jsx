@@ -18,7 +18,7 @@ const SearchBusiness = () => {
                     <input type="text" placeholder="Enter Youtr Domain Name" className="input h-[65px] input-bordered w-full max-w-xl pl-12" />
                 </div>
                 <Link to="/varificationcode">
-                    <p className='md:text-right text-center py-4'><button className='w-full md:w-[202px] h-[63px] bg-white text-lg font-semibold'>Search</button></p>
+                    <p className='md:text-right text-center py-4'><button className='w-full md:w-[202px] h-[63px] bg-white text-lg font-semibold rounded-lg'>Search</button></p>
                 </Link>
 
             </div>
