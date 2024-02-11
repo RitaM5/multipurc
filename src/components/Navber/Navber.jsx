@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navber = () => {
     const [open, setOpen] = useState(false);
     return (
-        <div className="z-10 w-full bg-white">
+        <div className="z-10 w-full bg-white font-poppins">
         <div className="my-4 h-full ">
         <h1 className="text-3xl text-center font-bangers block lg:hidden text-teal-800">Multipurc</h1>
         </div>

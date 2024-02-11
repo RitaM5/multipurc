@@ -43,7 +43,7 @@ const CountrySelect = () => {
         return false;
     })
     return (
-        <div className='md:w-[700px] h-full md:h-[680px] max-w-xl w-full bg-[#1B434D] rounded-xl py-2 px-3 mx-auto  my-12 lg:my-36'>
+        <div className=' font-poppins md:w-[700px] h-full md:h-[680px] max-w-xl w-full bg-[#1B434D] rounded-xl py-2 px-3 mx-auto  my-12 lg:my-36'>
             <img src="image/Multipurc (700 x 700 px) 1.png" className='' alt="" srcset="" />
             <div className=' relative md:left-[380px] left-6 bottom-24'>
                 <img src="image/particles.png" className='' alt="" srcset="" />
@@ -98,7 +98,7 @@ const CountrySelect = () => {
             </div>
             <div className=' relative bottom-8'>
                 <Link to="">
-                    <p className='md:text-right text-center py-4'><button className='w-[202px] h-[63px] bg-white text-lg font-semibold'>Next</button></p>
+                    <p className='md:text-right text-center py-4'><button className='md:w-[202px] w-full h-[63px] bg-white text-lg font-semibold'>Next</button></p>
                 </Link>
 
             </div>

@@ -11,7 +11,6 @@ import NewPass from './components/NewPass/NewPass'
 import VarificationPhone from './components/VarificationPhone/VarificationPhone'
 import SearchBusiness from './components/SearchBusiness/SearchBusiness'
 import CountrySelect from './components/CountrySelect/CountrySelect'
-import Others from './components/Others/Others'
 
 const router = createBrowserRouter([
   {
@@ -49,11 +48,7 @@ const router = createBrowserRouter([
       {
         path: '/searchbusiness',
         element: <SearchBusiness/>
-      },
-      {
-        path: '/others',
-        element: <Others/>
-      },
+      }
     ],
   },
 ])

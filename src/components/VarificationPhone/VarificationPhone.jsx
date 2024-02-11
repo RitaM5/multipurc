@@ -20,7 +20,7 @@ const VarificationPhone = () => {
         }
     ]
     return (
-        <div className='md:w-[700px] h-full md:h-[680px] max-w-xl w-full bg-[#1B434D] rounded-xl py-2 px-3 mx-auto  my-12 lg:my-36'>
+        <div className='md:w-[700px] font-poppins h-full md:h-[680px] max-w-xl w-full bg-[#1B434D] rounded-xl py-2 px-3 mx-auto  my-12 lg:my-36'>
             <img src="image/Multipurc (700 x 700 px) 1.png" className='' alt="" srcset="" />
             <div className=' relative md:left-[380px] left-6 bottom-12'>
                 <img src="image/particles.png" className='' alt="" srcset="" />
