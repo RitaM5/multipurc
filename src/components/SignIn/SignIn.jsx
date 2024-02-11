@@ -9,7 +9,6 @@ const SignIn = () => {
     return (
         <div className=' w-full lg:my-16 my-12 font-poppins'>
             <div className='w-full grid grid-cols-1 lg:grid-cols-2 items-center px-3 gap-8'>
-                {/*  lg:w-[700px] h-[850px] lg:w-[1310px]*/}
                 <div className='w-full order-last lg:order-first'>
                     <h1 className='text-[40px] font-bold'>Log In to Multipurc</h1>
                     <p className='py-2 w-full text-[30px]'>
@@ -53,14 +52,13 @@ const SignIn = () => {
                         </div>
                     </div>
                 </div>
-                {/* lg:w-[604px]   */}
                 <div className=' bg-[#1B434D] w-full  px-4 order-first lg:order-last h-full'>
                     <img src="image/Multipurc (700 x 700 px) 1.png" className='' alt="" srcset="" />
                     <div className=' relative md:left-20 left-6'>
                         <img src="image/particles.png" className='' alt="" srcset="" />
                     </div>
                     <div className='mx-auto'>
-                        <img src="../../../public/image/Active (3) 1.png" className='mx-auto' alt="" srcset="" />
+                        <img src="image/Active.png" className='mx-auto' alt="" srcset="" />
                     </div>
                     <div className=' text-white space-y-5 py-8'>
                         <h2 className='text-[40px] font-bold '>Get Better With Money</h2>
