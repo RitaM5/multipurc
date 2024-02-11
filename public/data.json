@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "flag": "https://img.icons8.com/emoji/20/bangladesh-emoji.png",
+        "name": "Bangladesh",
+        "code": "888"
+    },
+    {
+        "id": 2,
+        "flag": "https://img.icons8.com/color/20/india.png",
+        "name": "India",
+        "code": "099"
+    },
+    {
+        "id": 3,
+        "flag": "https://img.icons8.com/color/48/usa.png",
+        "name": "USA",
+        "code": "095"
+    }
+]
